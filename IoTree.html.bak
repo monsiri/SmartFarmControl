@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <script src="https://netpie.io/microgear.js"></script>
+
+  <script>
+    const APPKEY    = <APPKEY>;
+    const APPSECRET = <APPSECRET>;
+    const APPID     = <APPID>;
+
+    var microgear = Microgear.create({
+      gearkey: APPKEY,
+      gearsecret: APPSECRET
+    });
+  </script>
+ </head>
+ <body>
+  
+ </body>
+</html>
